@@ -1,3 +1,18 @@
-second-row {
-    background-color: blue;
+.row {
+    padding: 20px;
+}
+
+h1 {
+    font-size: large;
+}
+
+section {
+    margin: auto;
+}
+
+body {
+    margin: auto;
+    width: auto;
+    background-image: linear-gradient(teal, blue);
+    background-repeat: no-repeat;
 }
