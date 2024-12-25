@@ -16,6 +16,7 @@ body {
 .right-side {
     display: flex;
     flex-direction: column;
+    margin-left: 5px;
 }
 
 button {
@@ -44,7 +45,44 @@ button:hover {
 .output {
     background-color: black;
     color: white;
-    align-self: right;
-    flex-grow: 0;
-    flex-shrink: 0;
+    width: 260px;
+    height: 50px;
+    min-height: 50px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 10px;
+    box-sizing: border-box;
+    overflow-x: auto;
+    border: 1px solid #333;
+}
+
+.control-buttons {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.control-buttons button {
+    flex: 1;
+    margin: 0;
+    background-color: #ff9500;
+}
+
+.clear {
+    background-color: #ff3b30 !important;
+}
+
+.calculator {
+    width: 280px; /* Fixed width for entire calculator */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.output {
+    width: 100%; /* Take full width of calculator container */
+    /* Keep other output styles the same */
 }
