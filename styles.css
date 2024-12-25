@@ -1,18 +1,50 @@
-.row {
-    padding: 20px;
-}
-
-h1 {
-    font-size: large;
-}
-
-section {
-    margin: auto;
-}
-
+/* Center the entire body */
 body {
-    margin: auto;
-    width: auto;
-    background-image: linear-gradient(teal, blue);
-    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+.input {
+    display: flex;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: rgb(73, 73, 73);
+    color: white;
+    margin: 5px;
+    border-radius: 50px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: larger;
+}
+
+.right-side button {
+    background-color: orange;
+}
+
+.right-side button:hover {
+    background-color: rgb(255, 182, 46);
+}
+
+button:hover {
+    background-color: rgb(148, 148, 148);
+}
+
+.output {
+    background-color: black;
+    color: white;
+    align-self: right;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
