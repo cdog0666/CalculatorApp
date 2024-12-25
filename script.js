@@ -38,3 +38,16 @@ buttons.forEach(button => {
         }
     });
 });
+
+// Add these event listeners after your other calculator code
+const clearButton = document.querySelector('.clear');
+const delButton = document.querySelector('.del');
+const output = document.getElementById('output');
+
+clearButton.addEventListener('click', () => {
+    output.textContent = '';
+});
+
+delButton.addEventListener('click', () => {
+    output.textContent = output.textContent.slice(0, -1);
+});
