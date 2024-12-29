@@ -47,4 +47,9 @@ button:hover {
     align-self: right;
     flex-grow: 0;
     flex-shrink: 0;
+    height: 30px;
+    font-family: sans-serif;
+    font-size: x-large;
+    text-align: right;
+    /* Add this line */
 }
